@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       skip-build:
-        description: 'Skip the build step'
+        description: 'Skip the push step'
         required: false
         default: false
         type: boolean
